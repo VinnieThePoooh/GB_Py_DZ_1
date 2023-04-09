@@ -6,8 +6,8 @@
 
 number = int(input('Введите число: '))
 summa = 0
-while number>10:
-    summa +=number%10
-    number//10
-summa +=number
+while number>=10:
+    summa += number%10
+    number //= 10
+summa += number
 print(summa)
